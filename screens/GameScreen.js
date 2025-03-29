@@ -94,6 +94,7 @@ const GameScreen = ({ userNumber, onGameOver }) => {
     setGuessRounds((prevGuessRounds) => [newRndNumber, ...prevGuessRounds]);
   };
   const guessRoundsListLength = guessRounds.length;
+
   let content = (
     <>
       <NumberContainer>{currentGuess}</NumberContainer>
